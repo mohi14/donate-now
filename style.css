@@ -109,3 +109,49 @@ body {
     margin-top: 40px;
     width: 100%;
 }
+
+.donate-plan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-plan-header {
+    text-align: center;
+    margin: 0px 200px 50px 200px;
+}
+
+.donate-plan-header h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.donate-plan-header p {
+    font-size: 18px;
+}
+
+.donate-plan-boxes {
+    margin: 0px 150px 50px 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.box {
+    width: 80%;
+    padding: 80px 30px 70px 20px;
+    border-radius: 5px;
+}
+
+.plan-box1 {
+    background-color: rgba(79, 157, 166, 0.1);
+
+}
+
+.plan-box2 {
+    background-color: rgba(255, 89, 89, 0.1);
+}
+
+.plan-box3 {
+    background-color: rgba(231, 181, 15, 0.096);
+}
