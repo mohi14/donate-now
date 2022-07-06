@@ -178,3 +178,54 @@ body {
     font-size: 30px;
     color: #FAFAFA;
 }
+
+.get-update {
+    margin-top: 80px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.get-update h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+.get-update p {
+    font-size: 18px;
+}
+
+#form {
+    background-color: #FFF4D6;
+    padding: 100px 200px 80px 200px;
+}
+
+input[type="email"] {
+    background-color: rgb(207, 186, 186);
+    border: none;
+    outline: none;
+    width: 260px;
+    height: 48px;
+    border-radius: 5px 0 0 5px;
+    padding: 0 25px;
+
+
+}
+
+input[type="submit"] {
+    background-color: #FF5959;
+    border: none;
+    outline: none;
+    position: relative;
+    left: -4px;
+    height: 48px;
+    padding: 0px 25px;
+    border-radius: 0 5px 5px 0;
+    color: #FAFAFA;
+
+    cursor: pointer;
+}
